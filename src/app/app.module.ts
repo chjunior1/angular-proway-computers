@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
+import { NaoEncontradoComponent } from './nao-encontrado/nao-encontrado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    NaoEncontradoComponent
   ],
   imports: [
     BrowserModule,
