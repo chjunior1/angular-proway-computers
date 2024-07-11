@@ -9,7 +9,8 @@
 
 .main-header__title {    
     font-size: 80px;
-    letter-spacing: -1.5px;    
+    letter-spacing: -1.5px;  
+    padding: 10px 0;  
 }
 
 .main-header__title--blue {
@@ -60,6 +61,7 @@
 .search-form{
     height: 44px;
     display: flex;
+    padding: 8px 0;
 }
 
 .search-form input{

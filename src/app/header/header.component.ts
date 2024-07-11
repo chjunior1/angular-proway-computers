@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.carrinhoService.obtemCarrinho();
   }
 
 }
