@@ -13,7 +13,7 @@
                     <a routerLink="carrinho">
                         <i class="fa-solid fa-cart-shopping"></i>
                         Carrinho
-                        <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length || "0" }}</span>
+                        <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length }}</span>
                     </a>
                 </li>
                 <li>
@@ -25,9 +25,6 @@
                 <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
             </ul>
         </nav>
-        <form action="" class="search-form">
-            <input type="text">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
+        <app-barra-pesquisa></app-barra-pesquisa>
     </div>
 </header>

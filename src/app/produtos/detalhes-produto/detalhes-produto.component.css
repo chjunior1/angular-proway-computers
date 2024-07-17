@@ -40,15 +40,15 @@ label {
 }
 
 input {
-    width: 30px;
+    width: 40px;
     padding: 5px;
 }
 
-input::-webkit-outer-spin-button,
+/* input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
+} */
 
 /* Firefox */
 input[type=number] {
